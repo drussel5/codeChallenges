@@ -42,4 +42,14 @@ public class Palindrome {
         return indexRemove;
     }
 
+    public static boolean isPalindrome(String s) {
+        char[] charArr = s.toCharArray();
+        for (int i = 0; i < charArr.length / 2; i++) {
+            if (charArr[i] != charArr[charArr.length - 1 - i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
