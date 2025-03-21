@@ -7,11 +7,11 @@ public class Main {
         String test5 = "acba";
         String test6 = "aabbccbbaa";
 
-//        System.out.println(test1 + ": " + Palindrome.palindromeIndex(test1));
-//        System.out.println(test2 + ": " + Palindrome.palindromeIndex(test2));
-//        System.out.println(test3 + ": " + Palindrome.palindromeIndex(test3));
-//        System.out.println(test4 + ": " + Palindrome.palindromeIndex(test4));
-//        System.out.println(test5 + ": " + Palindrome.palindromeIndex(test5));
+        System.out.println(test1 + ": " + Palindrome.palindromeIndex(test1));
+        System.out.println(test2 + ": " + Palindrome.palindromeIndex(test2));
+        System.out.println(test3 + ": " + Palindrome.palindromeIndex(test3));
+        System.out.println(test4 + ": " + Palindrome.palindromeIndex(test4));
+        System.out.println(test5 + ": " + Palindrome.palindromeIndex(test5));
 
         System.out.println(test1 + ": " + Palindrome.isPalindrome(test1));
         System.out.println(test2 + ": " + Palindrome.isPalindrome(test2));
